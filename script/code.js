@@ -27,20 +27,24 @@
 
 // Q3
 
-function getSum(){
-    let num1 = +document.querySelector('#number1').value
-    let num2 = +document.querySelector('#number2').value
-    let operator = document.querySelector('#operator').value
-    let display = document.querySelector('#screen')
+// function getSum(){
+//     let num1 = +document.querySelector('#number1').value
+//     let num2 = +document.querySelector('#number2').value
+//     let operator = document.querySelector('#operator').value
+//     let display = document.querySelector('#screen')
 
-    if(operator == '+'){
-        display.textContent = num1 + num2
-    } else if(operator == '-'){
-        display.innerText = num1 - num2
-    } else if(operator == '*'){
-        display.innerText = num1 * num2
-    } else if(operator == '/'){
-        display.innerText = num1 / num2
-    }
-}
+//     if(operator == '+'){
+//         display.textContent = num1 + num2
+//     } else if(operator == '-'){
+//         display.innerText = num1 - num2
+//     } else if(operator == '*'){
+//         display.innerText = num1 * num2
+//     } else if(operator == '/'){
+//         display.innerText = num1 / num2
+//     }
+// }
 
+// Q4(5)
+let subject = "programming"
+subject = [...subject].reverse().join("");
+console.log(subject);
